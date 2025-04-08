@@ -6,3 +6,73 @@ ksik verileri işlemek için dört yaygın yol şunlardır: Birincisi, eksik de�
 zaten oluşturulmuş kukla değişkenler (dummy variables) içeren bir veri setini açmak, bu değişkenlerin işlevini anlamaya yardımcı olur. Bu veri setinde, hafif olarak belirlenen herhangi bir değer için 1 girildiğini göreceksiniz.
  Sahte (dummy) değişkenler, özellikle istatistiksel modellerde ve makine öğrenimi algoritmalarında oldukça kullanışlıdır. Kategorik verilerle çalışmanın bir diğer yolu ise "etiket kodlaması" olarak adlandırılır. Etiket kodlaması, her kategoriye nitel bir değer yerine benzersiz bir sayı atandığı bir veri dönüştürme tekniğidir. Örneğin, mantarlar hakkında bir veri setiniz olduğunu ve farklı mantar türleri arasındaki dağılımı anlamak istediğinizi hayal edelim. Mantarlar hakkında bir veri seti almış olduğunuzu ve "tip" başlıklı bir sütunun bulunduğunu hayal edin, bu sütunda seçenekler olarak siyah trüf, cremini, kral trompet, buton, kirpi, morel, portobello, zehirli mantar veya shiitake yer alıyor. Her bir mantar türünü bir sayıya dönüştürmek için etiket kodlamasını kullanabilirsiniz. Siyah trüf 0'a, buton 1'e, cremini 2'ye, kirpi mantarı 3'e, kral trompet 4'e, morel 5'e, portobello 6'ya, shiitake 7'ye ve son olarak, zehirli mantar 8'e dönüştürülecektir.
  Girdi doğrulaması, verilerin eksiksiz, hatasız ve yüksek kalitede olduğundan emin olmak için detaylı analiz yapma ve tekrar kontrol etme uygulamasıdır. Girdi doğrulaması, EDA’nın diğer beş aşaması olan keşfetme, yapılandırma, temizleme, birleştirme ve sunma sırasında ve sonrasında tekrar tekrar yapılması gereken döngüsel bir uygulama olarak düşünülmektedir. 
+             EK notlar
+ Yalın
+Yalın metodoloji, üretim dünyasında ortaya çıktığı için genellikle Yalın Üretim olarak adlandırılır. Yalın metodolojideki temel ilke, bir operasyon içindeki atıkların giderilmesidir. Proses adımlarını optimize ederek ve israfı ortadan kaldırarak, üretimin her aşamasında yalnızca değer katılır. 
+
+Günümüzde Yalın Üretim metodolojisi, bir operasyondaki sekiz tür atığı tanır: kusurlar, aşırı işleme, aşırı üretim, bekleme, envanter, nakliye, hareket ve kullanılmayan yetenek. İmalat endüstrisinde, bu tür atıklar genellikle aşağıdaki gibi konulara atfedilir: 
+
+Uygun dokümantasyon eksikliği
+
+Proses standartlarının eksikliği
+
+Müşterilerin ihtiyaçlarını anlamamak
+
+Etkili iletişim eksikliği
+
+Proses kontrolü eksikliği
+
+Verimsiz süreç tasarımı
+
+Yönetimin başarısızlıkları
+
+Aynı sorunlar proje yönetiminde israf yaratır. 
+
+Sınırlı kaynakları kullanmak, israfı azaltmak ve maksimum fayda elde etmek için süreçleri kolaylaştırmak istediğinizde Yalın proje yönetimini uygulayın. 
+
+Bunu Lean 5S kalite aracının temellerini kullanarak başarabilirsiniz. 5S terimi, iyi temizlik için gerekli olan beş sütunu ifade eder: sıralama, sıraya göre ayarlama, parlatma, standartlaştırma ve sürdürme. 5S yöntemini uygulamak, en az miktarda zaman ve malzeme israfı elde etmek için işyerini temizlemek ve düzenlemek anlamına gelir. 5S yöntemi şu beş adımı içerir: 
+
+Sıralama: Mevcut üretim işlemleri için gerekli olmayan tüm öğeleri kaldırın ve yalnızca temel gerekli malzemeleri bırakın. 
+
+Sırayla ayarlayın: Gerekli öğeleri kullanımı kolay olacak şekilde düzenleyin. Öğeleri herkesin bulabilmesi veya uzaklaştırabilmesi için etiketleyin. 
+
+Parlaklık: Her şeyi doğru yerde tutun. Çalışma alanınızı her gün temizleyin.
+
+Standartlaştırın: İşlemi her seferinde aynı şekilde gerçekleştirin. 
+
+Sür@@ dürmek: Doğru prosedürleri sürdür meyi alışkanlık haline getirin ve bu disiplini ekibinize aşılayın.
+
+Lean metodolojisi dahilinde, 5S performansı artırmanıza yardımcı olur. 
+
+Lean'ın son konsepti, üretimi yönetmek için bir Kanban çiz elgeleme sistemini kullanır. Kanban zamanlama sistemi veya Kanban panosu, ekibinizin çalışma akışını optimize etmenizi sağlayan bir görselleştirme aracıdır. Ekibe ne yapılması gerektiğini ve ne zaman yapılması gerektiğini belirlemek için görsel bir görüntü sağlar. Kanban panosu, ilerlemeyi göstermek ve ekibinizin işi koordine etmesine yardımcı olmak için soldan sağa hareket ettirilen kartları kullanır. 
+
+Bir projenin görevlerini temsil eden yapışkan notlarla sütunları (yapılacak, devam ediyor, test ediliyor ve bitti) gösteren Kanban panosu.
+Kanban panoları ve 5S, Lean metodolojisinin temel yöntemleridir. Projenizi başarılı bir şekilde yönetmenize yardımcı olabilirler. Şimdi Altı Sigma yöntemini analiz edelim ve onu kullanmak için en uygun zamanın ne zaman olduğunu öğrenelim. 
+
+Altı Sigma
+Altı Sigma, kalite süreçlerinin her seferinde takip edilmesini sağlayarak varyasyonları azaltmak için kullanılan bir metodolojidir. “Altı Sigma” terimi istatistiklerden kaynaklanır ve genellikle öğelerin veya süreçlerin% 99.9996 kaliteye sahip olması gerektiği anlamına gelir.
+
+Altı Sigma'nın yedi temel prensibi şunlardır:
+
+Her zaman müşteriye odaklanın.
+
+İşin nasıl yapıldığını belirleyin ve anlayın. İşin gerçekte nasıl gerçekleştiğini anlayın.
+
+Süreçlerinizin sorunsuz akmasını sağlayın.
+
+Atıkları azaltın ve değere odaklanın.
+
+Varyasyonu kaldırarak kusurları durdurun.
+
+Ekibinizi dahil edin ve işbirliği yapın.
+
+İyileştirme faaliyetine sistematik bir şekilde yaklaşın.
+
+Ürün veya sürecin zaman, maliyet veya miktar gibi ölçülebilir yönlerini bulmak için bu metodolojiyi kullanın. Ardından ölçülebilir öğeyi inceleyin ve Altı Sigma standardını karşılamayan ürünleri reddedin. Kabul edilemez ürünler yaratan herhangi bir süreç iyileştirilmelidir. 
+
+Artık hem Yalın hem de Altı Sigma'yı anladığınıza göre, projenizin performansını artırmak için nasıl bir araya geldiklerini görelim!
+
+Yalın Altı Sigma
+Hem Lean hem de Altı Sigma uygulamaya konulduktan sonra, faydaları artırmak için iki metodolojinin birleştirilebileceği keşfedildi. Kanban panoları ve 5S gibi Lean'da kullanılan araçlar, en başından itibaren süreçlerde kalite oluşturur. Yalın yöntemler kullanılarak geliştirilen ürünler daha sonra Altı Sigma standartları kullanılarak denetlenir veya test edilir. Bu standartlara uymayan ürünler reddedilir. 
+
+Bu metodolojiler arasındaki en büyük fark, Lean'ın süreçleri kolaylaştırması, Altı Sigma'nın en baştan kalite oluşturarak ve kalite standartlarının karşılanmasını sağlamak için ürünleri denetleyerek ürünlerdeki farklılıkları azaltmasıdır. Bu iki yöntemden birinin veya her ikisini birlikte kullanmanın projelerinizin verimliliğini artırabileceğini görebilirsiniz.             
